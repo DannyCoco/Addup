@@ -22,7 +22,7 @@ int addUp(int num) {
     return num + addUp(num - 1);  */
 }
 
-int main(int argc, const char * argv[]) {
+int main(/*int argc, const char * argv[]*/) {
    cout << addUp(4) << endl;
     return 0;
 }
